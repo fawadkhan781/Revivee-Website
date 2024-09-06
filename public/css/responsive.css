@@ -1,0 +1,148 @@
+@media only screen and (min-width: 1400px){
+
+}
+
+@media only screen and (min-width: 1201px) {
+
+}
+
+@media only screen and (max-width: 1200px){
+
+}
+@media only screen and (max-width: 1024px){
+    .first-section-revive {
+        height: 86vh;
+
+    }
+}
+@media only screen and (max-width: 991px){
+
+    .header_wrapper .navbar{
+        background-color: var(--secondary-color);
+    }
+    .header_wrapper .menu-navbar-nav{
+        text-align: center;
+        background-color: var(--secondary-color);
+        padding-bottom: 15px;
+    }
+    .header_wrapper .nav-item .nav-link{
+        margin-top: 15px;
+    }
+    .header_wrapper .navbar{
+        padding: 10px 0;
+    }
+}
+@media only screen and (max-width: 912px){
+    .first-section-revive {
+        height: 41vh;
+    }
+    .second-sec-revive-home-page{
+        margin-top: -92px;
+    }
+    .first-section-content h1{
+        font-size: unset;
+    }
+    .first-section-content h2{
+        font-size: unset;
+    }
+    .avaliable-app p {
+        font-size: 24px;
+    }
+    .revive-navbar{
+        background-color: var(--secondary-color);
+    }
+
+    .first-section-revive {
+        height: 43vh;
+
+    }
+
+    .navbar-toggler:focus {
+        box-shadow: none!important;
+    }
+    .second-sec-revive-home-page{
+        margin-top: -106px;
+    }
+}
+@media only screen and (max-width: 820px){
+    .revive-navbar{
+        background-color: #011601;}
+
+    .first-section-revive {
+        height: 43vh;
+
+    }
+
+    .navbar-toggler:focus {
+        box-shadow: none!important;
+    }
+    .second-sec-revive-home-page{
+        margin-top: -106px;
+    }
+    .avaliable-app p {
+        font-size: 24px;
+    }
+    .revive-navbar{
+        padding-top: 5px;
+    }
+    .revive-logo img {
+        width: 50%;
+    }
+    .first-section-content h1{
+        font-size: unset;
+    }
+    .first-section-content h2{
+        font-size: unset;
+    }
+}
+@media only screen and (max-width: 768px){
+
+}
+
+@media only screen and (max-width: 720px){
+
+}
+
+@media screen and (max-width: 576px){
+    .form-para {
+        width: 100%;
+    }
+    .sign-up-today-form {
+        width: 100%;
+    }
+    .first-section-revive {
+        height: 50vh;
+        margin-top: 0px;
+        background-size: inherit;
+    }
+    .first-section-content h1{
+        font-size: unset;
+    }
+    .first-section-content h2{
+        font-size: unset;
+    }
+}
+@media screen and (max-width: 540px){
+    .second-sec-revive-home-page {
+        margin-top: -34px;
+    }
+    .avaliable-app p{
+        font-size: 16px;
+    }
+    .first-section-content p{
+        width: 100% !important;
+    }
+}
+@media screen and (max-width: 414px){
+    .avaliable-app p{
+        font-size: 10px;
+    }
+}
+@media screen and (max-width: 375px){
+    .avaliable-app p{
+        font-size: 9px;
+    }
+    .second-sec-revive-home-page {
+        margin-top: 0px;
+    }
+}

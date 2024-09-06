@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/revivee_website.iml" filepath="$PROJECT_DIR$/.idea/revivee_website.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../sbadmin/.idea/sbadmin.iml" filepath="$PROJECT_DIR$/../sbadmin/.idea/sbadmin.iml" />
+    </modules>
+  </component>
+</project>

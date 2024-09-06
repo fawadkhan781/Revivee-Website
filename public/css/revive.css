@@ -1,0 +1,302 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root{
+    /*Background Color*/
+    --primary-color:#f9f9f9;  /* Background Darkwhite color */
+    --secondary-color:#5c5c5c; /* Background Darkgray color Footer copyright line*/
+    --Dark-blue:#04478e;      /* tab and button blue colors*/
+    --Heading-color:#04478e; /* Heading color*/
+    --para-color:#2c2c2c;    /* Paragraph color*/
+    --font-weight:500;
+    --white-color:#ffffff;
+
+}
+.font-weight{
+    font-weight: 500;
+}
+a{
+    text-decoration: none;
+}
+::-webkit-scrollbar{
+    width: 7px;
+}
+::-webkit-scrollbar-track{
+    background-color: #27331a;
+}
+::-webkit-scrollbar-thumb{
+    background-color:white;
+}
+Input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button{
+    -webkit-appearance: none;
+    margin: 0;
+}
+/*revive navbar*/
+.header_wrapper .navbar{
+    padding: 35px 0;
+    transition:  all .2s linear;
+    -webkit-transition: all .2s linear;
+    -o-transition: all .2s linear;
+}
+.header_wrapper .navbar-brand img{
+    max-width: 73%;
+    height: auto;
+}
+.header_wrapper .navbar-toggler{
+    border: 0;
+    color: var(--gray-color);
+    line-height: 2;
+}
+.header_wrapper .navbar-toggler:focus{
+    box-shadow: none!important;
+}
+.header_wrapper .nav-item{
+    margin: 0 10px;
+}
+.header_wrapper .nav-item .nav-link{
+    position: relative;
+    font-size: 16px;
+    font-weight: 500;
+    color: white;
+    display: inline-block;
+}
+.header_wrapper .nav-item .nav-link::after{
+    position: absolute;
+    content: '';
+    left: 0;
+    width: 0;
+    height: 2px;
+    background-color: var(--primary-color);
+    transition: 0.3s;
+    bottom: 0;
+}
+
+.header_wrapper .nav-item .nav-link.active::after,
+.header_wrapper .nav-item .nav-link:hover::after
+{
+    width: 100%;
+
+}
+.header_wrapper .nav-item .nav-link.active,
+.header_wrapper .nav-item .nav-link:hover
+{
+    color:white;
+
+}
+.header-scrolled{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    transition: all 0.5s linear;
+    padding: 5px 0!important;
+    background-color: var(--secondary-color);
+    box-shadow: 0px 4px 6px 0 rgba(12,0,46,.05);
+}
+.header-scrolled .nav-item .nav-link.active,
+.header-scrolled .nav-item .nav-link:hover
+{
+    color:white;
+}
+
+/*1st section start of revive Home page*/
+.first-section-revive{
+    background-image: url('../images/1st-section-img.jpg');
+    background-size: cover;
+    height: 100vh;
+    background-repeat: no-repeat;
+}
+.second-sec-revive-home-page {
+    margin-top: -60px;
+}
+.first-section-content h1{
+    font-size: 47px;
+}
+.first-section-content h2{
+    font-size: 49px;
+}
+/*2nd section start of revive home page Find, Reserve,and Share EV Chargers*/
+.avaliable-app{
+    box-shadow: 0px 2px 7px 0 rgba(0, 0, 0, 0.1);
+    border-radius: 20px;
+    background-color: var(--white-color);
+
+}
+.div-upper{
+    margin-top: -20px;
+}
+.download-app img {
+    width: 83%;
+}
+.location-images{
+    position: relative;
+    margin-top: 27px;
+}
+.location-img{
+    position: absolute;
+    z-index: -1;
+    width: 50%;
+}
+.mobile-img{
+    width: 45%;
+    margin-top: 31px;
+    margin-left: 168px;
+}
+.avaliable-app p{
+    font-size: 32px;
+}
+/* section 3 of revive homepage Transform Your EV Charger*/
+.third-section-home-revive-page{
+    background-color: var(--primary-color);
+}
+.work-heading {
+    color: #5c5c5c;
+}
+/* section 6 of revive homepage Revive Home tabs*/
+.revive-tab-pills{
+    background-color: var(--primary-color);
+    padding: 66px 17px;
+}
+.nav-pills .nav-link {
+    background: #f1f1f1;
+    border: none;
+    color: #2c2c2c;
+}
+.navbar-stream-icon {
+    color: #fff;
+}
+
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link{
+    color: #fff;
+    background-color: var(--Dark-blue);
+    font-weight: 500;
+}
+.tab-para{
+    font-size: 17px;
+    width: 90%;
+}
+
+/*section 8 Testimonial  of revive homepage css*/
+.main_testimonial{
+    width: 75%;
+}
+.carousel-indicators{
+    margin-bottom: -50px;
+}
+#crousl_btn{
+    width: 10px;
+    height: 10px;
+    margin: 0 8px 0 0;
+    object-fit: contain;
+    border: solid 2px #5c5c5c;
+    background-color: #fff;
+    border-radius: 10px;
+}
+#crousl_btn.active{
+    border: solid 1.9px #404041;
+    background-color: #5c5c5c;
+}
+
+.testimonial_img-1 img {
+    border: solid 2px #5c5c5c;
+    border-radius: 60px;
+    width: 100px;
+    height: 100px;
+}
+.testimonial_img img {
+    border-radius: 60px;
+    width: 100px;
+    height: 100px;
+}
+/*section 9  revive homepage Form css */
+.section-9-homepage-revive {
+    background-color: var(--primary-color);
+}
+.revive-form-group {
+    margin-bottom: 15px;
+}
+.form-group label {
+    display: block;
+    font-weight: bold;
+}
+.icon {
+    position: absolute;
+    top: 14px;
+    left: 10px;
+    color: #777;
+}
+.submit-btn {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.revive-form-group input{
+    border: none;
+    background-color: #fafafa;
+    width: 100%;
+    padding: 10px;
+}
+.revive-form-group input::placeholder{
+   color: #000000 !important;
+}
+.sign-up-today-form{
+    background-color: var(--white-color);
+    border-radius: 19px;
+    width: 41%;
+}
+.form-para{
+    width: 63%;
+}
+.revive-form-group-select {
+    border: none;
+    background-color: #fafafa;
+    width: 100%;
+    padding: 10px;
+}
+.revive-form-group-select:focus{
+    box-shadow: none;
+}
+
+.revive-form-group-select:focus-visible{
+    outline: -webkit-focus-ring-color auto 1px;
+}
+.revive-form-group-select {
+    margin-bottom: 15px;
+}
+.phone-field{
+    position: relative;
+}
+.telephone-icon{
+    position: absolute;
+    right: 14px;
+    top: 16px;
+}
+.submit-btn-revive {
+    background-color: var(--Dark-blue);
+    color: #fff;
+    border: none;
+    width: 72%;
+    padding: 5px 0px;
+    border-radius: 9px;
+    margin: 0 auto;
+}
+.locate{
+    border: 1px solid #5c5c5c;
+    border-radius: 50px;
+    width: 94%;
+    height: 100%;
+}
+.revive-form-group input::placeholder{
+    color: #dbdbdb;
+}
+/* Revive copyright line css*/
+.revive-copyright-line{
+    background-color: var(--secondary-color);
+    padding: 10px;
+}

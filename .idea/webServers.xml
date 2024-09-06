@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="81800f10-f5cc-4d3a-9ba0-b03650666876" name="Dev Server">
+        <fileTransfer rootFolder="/var/www/html/revivee_website" accessType="SFTP" host="172.24.7.240" port="22" sshConfigId="60ff13ff-e63a-4d35-85de-44ffb37e6be7" sshConfig="Local Dev Server (240)">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>

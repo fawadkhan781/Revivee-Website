@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+.site-branding img {
+    max-height: 90px;
+}
+#rev_slider_1_1_wrapper .zeus.tparrows {
+    display: none;
+}
+
+.rev_slider_1_1_height {
+    height: 800px !important;
+    max-height: 850px !important;
+}
+/*#rev_slider_1_1_forcefullwidth {
+    height: 800px !important;
+}*/
+.ttm-list.ttm-list-style-icon.style1 li {
+    width: max-content;
+}
+.widget.widget_nav_menu a:before{
+    background-color: #3767E3 ;
+}
+.ttm-textcolor-skincolor {
+    color: #3767E3 ;
+}
+.ttm-bgcolor-darkgrey {
+    background-color: #33525e;
+    box-shadow: rgb(0 0 0 / 46%) 0px 4px 12px;
+}
+.ttm-bgcolor-darkgrey [data-tooltip]:after , .footer .social-icons.circle li>a:hover,
+ .footer .social-icons.circle li>a:hover, .featured-icon-box.icon-align-top-content.style4 .fea-number {
+    background-color: #4B95D9;
+}
+.footer .ttm-bgcolor-darkgrey .tooltip-top:before, .ttm-bgcolor-darkgrey [data-tooltip]:before {
+   border-top-color: #4B95D9 !important;
+}
+.copyright a , .ttm-icon_element-fill.ttm-icon_element-color-white i
+{
+    color: #4B95D9;
+}
+.copyright a:hover , ul.widget_contact_wrapper li i, .ttm-bgcolor-darkgrey a:hover,
+ nav.main-menu ul.menu > li.active > a, .featured-icon-box.style8 .featured-content .ttm-list.ttm-list-style-icon li i{
+    color: #3767E3 ;
+}
+nav.main-menu ul.menu > li > a:before {
+    background-color: #3767E3 ;
+}
+
+.dark-color {
+    color: #3767E3 ;
+}
+.medium-color {
+    color: #4B95D9;
+}
+.light-blue-color {
+    color: #3767E3;
+}
+.col-bg-img-fifteen.ttm-col-bgimage-yes .ttm-col-wrapper-bg-layer {
+    background-image: url("../images/home_page/rcm_differ.jpg") !important;
+}
+
+a.text-light:focus, a.text-light:hover {
+    color: #3767E3!important;
+}
+.ttm-row.introduction-section.intro_atlantis_rcm {
+    padding: 0px 0px 100px;
+}
+.ttm-row.procedure-section-2 {
+    padding: 115px 0 100px;
+}
+.shadow_div {
+    box-shadow: rgb(0 0 0 / 46%) 0px 4px 12px;
+}
+
+.left-side i.fa.fa-arrow-circle-right {
+    top: 17px !important;
+}
+.left-side li {
+    padding: 12px 0px;
+}
+.fixed-header .logo-img {
+    max-height: 65px !important;
+}
+.fixed-header .home-link{
+    padding: 10px;
+}
